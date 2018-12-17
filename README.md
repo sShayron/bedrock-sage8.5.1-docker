@@ -8,5 +8,5 @@ cp .env.example .env
 cd ../my-site-docker
 cp .env.example .env
 docker-compose up -d
-docker exec -it mysitedocker_workspace_1 /bin/sh -c "composer install"
+docker exec -it my-site-docker_workspace_1 /bin/sh -c "composer install"
 ```
